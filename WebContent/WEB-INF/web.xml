@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>PharmacyStore</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>DEMO1</servlet-name>
+  	<jsp-file>/controller/deletecatcontroller.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO1</servlet-name>
+  	<url-pattern>/deletecatcontroller</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO2</servlet-name>
+  	<jsp-file>/controller/validateUserLogin.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO2</servlet-name>
+  	<url-pattern>/validateUserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>DEMO3</servlet-name>
+  	<jsp-file>/controller/validateAdminLogin.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO3</servlet-name>
+  	<url-pattern>/validateAdminLogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO4</servlet-name>
+  	<jsp-file>/controller/registerUser.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO4</servlet-name>
+  	<url-pattern>/registerUser</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO5</servlet-name>
+  	<jsp-file>/controller/registerAdmin.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO5</servlet-name>
+  	<url-pattern>/registerAdmin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO7</servlet-name>
+  	<jsp-file>/controller/addproduct.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO7</servlet-name>
+  	<url-pattern>/addproduct</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO8</servlet-name>
+  	<jsp-file>/controller/deletecategory.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO8</servlet-name>
+  	<url-pattern>/deletecategory</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO9</servlet-name>
+  	<jsp-file>/controller/DeleteProduct.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO9</servlet-name>
+  	<url-pattern>/DeleteProduct</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO30</servlet-name>
+  	<jsp-file>/controller/UpdateProduct.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO30</servlet-name>
+  	<url-pattern>/UpdateProduct</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO10</servlet-name>
+  	<jsp-file>/controller/updatestatus.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO10</servlet-name>
+  	<url-pattern>/updatestatus</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO11</servlet-name>
+  	<jsp-file>/addcategoryform.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO11</servlet-name>
+  	<url-pattern>/addcategoryform</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO12</servlet-name>
+  	<jsp-file>/controller/viewordercontroller.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO12</servlet-name>
+  	<url-pattern>/viewordercontroller</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO13</servlet-name>
+  	<jsp-file>/controller/additemcontroller.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO13</servlet-name>
+  	<url-pattern>/additemcontroller</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO14</servlet-name>
+  	<jsp-file>/viewallproductsadmin.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO14</servlet-name>
+  	<url-pattern>/viewallproductsadmin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO15</servlet-name>
+  	<jsp-file>/controller/viewallproadmincontroller.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO15</servlet-name>
+  	<url-pattern>/viewallproadmincontroller</url-pattern>
+  </servlet-mapping>
+   
+  <servlet>
+  	<servlet-name>DEMO19</servlet-name>
+  	<jsp-file>/controller/cancelledordercontroller.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO19</servlet-name>
+  	<url-pattern>/cancelledordercontroller</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+  	<servlet-name>DEMO20</servlet-name>
+  	<jsp-file>/controller/viewyourordercontroller.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO20</servlet-name>
+  	<url-pattern>/viewyourordercontroller</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO21</servlet-name>
+  	<jsp-file>/updateaddress.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO21</servlet-name>
+  	<url-pattern>/updateaddress</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO22</servlet-name>
+  	<jsp-file>/controller/displayproductpaginationcontroller.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO22</servlet-name>
+  	<url-pattern>/displayproductpaginationcontroller</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO23</servlet-name>
+  	<jsp-file>/controller/updatestatuscontroller.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO23</servlet-name>
+  	<url-pattern>/updatestatuscontroller</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO24</servlet-name>
+  	<jsp-file>/controller/cancelordercontroller.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO24</servlet-name>
+  	<url-pattern>/cancelordercontroller</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO25</servlet-name>
+  	<jsp-file>/controller/rejectordercontroller.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO25</servlet-name>
+  	<url-pattern>/rejectordercontroller</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO26</servlet-name>
+  	<jsp-file>/controller/updationofaddresscontroller.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO26</servlet-name>
+  	<url-pattern>/updationofaddresscontroller</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DEMO27</servlet-name>
+  	<jsp-file>/controller/updateaddresscontroller.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO27</servlet-name>
+  	<url-pattern>/updateaddresscontroller</url-pattern>
+  </servlet-mapping>
+  
+	
+  <servlet>
+  	<servlet-name>DEMO28</servlet-name>
+  	<jsp-file>/controller/displayproductcategorywisecontroller.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO28</servlet-name>
+  	<url-pattern>/displayproductcategorywisecontroller</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>DEMO29</servlet-name>
+  	<jsp-file>/controller/confirmedordercontroller.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO29</servlet-name>
+  	<url-pattern>/confirmedordercontroller</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
